@@ -1,0 +1,33 @@
+#container{
+    border: solid 1px;
+    border-radius: 12px;
+    display: flex;
+    height: 700px;
+    width: 600px;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 25%;
+    flex-direction: column;
+}
+#header{
+    height: 150px;
+    text-align: center;
+}
+#main{
+    background-color: antiquewhite;
+    flex: 1;
+}
+#footer{
+    height: 50px;
+    text-align: center;
+}
+#restart{
+    background-color: white;
+    border: solid 1px;
+    border-radius: 12px;
+    height: 35px;
+    width: 100px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
